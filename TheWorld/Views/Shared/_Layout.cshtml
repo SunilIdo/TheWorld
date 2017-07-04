@@ -29,6 +29,19 @@
                         </button>
                     </li>
                 </ul>
+                <a asp-controller="App" asp-action="Index" class="navbar-brand">The World</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="btn btn-sm btn-info">
+                            <i class="fa fa-save">Save</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-sm btn-info">
+                            <i class="fa fa-print">Print</i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div id="main" class="container-fluid">
@@ -37,7 +50,9 @@
             </div>
         </div>
         <div id="footer">
-            <p class="text-primary"> &copy; 2017 The World Ltd.</p>
+            <div class="navbar navbar-inverse navbar-fixed-bottom">
+                <h4 class="text-center text-primary"> &copy; 2017 The World Ltd.</h4>
+            </div>
         </div>
     </div>
 
